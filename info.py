@@ -95,7 +95,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'shareus.io')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '6DRRpJbz96ghKtCBgiORSGMnJ6H3')
@@ -105,9 +105,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '08efa34591ac
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Movies_King_Update/235')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moviesking.in.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'df9cb224c37eae97806e3669744a7f9f6d5b0770')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6DRRpJbz96ghKtCBgiORSGMnJ6H3')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
